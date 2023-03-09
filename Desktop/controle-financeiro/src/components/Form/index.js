@@ -67,6 +67,7 @@ const Form = ({ handleAdd, transactionsList, setTransactionsList }) => {
                 <C.Button onClick={handleSave}>ADICIONAR</C.Button>
             </C.Container>
             <Grid itens={transactionsList} setItens={setTransactionsList} />
+            console.log('ola')
         </>
     );
 };
